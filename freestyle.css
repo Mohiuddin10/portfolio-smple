@@ -1,14 +1,15 @@
 body {
     font-family: 'Dancing Script', cursive;
     margin: 0;
+    
 }
 h1 {
     font-size: 50px;
 }
-span {
+.orange-color {
     color : lightcoral;
 }
-section {
+.free-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -18,6 +19,11 @@ section {
 }
 .half-width img {
     width: 100%;
+}
+#dream {
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
 }
 .link-button {
     text-decoration: none;
@@ -38,4 +44,34 @@ section {
     background-image: url('images/pencil.jpg');
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item {
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px 10px;
+    border-radius: 15px;
+    text-align: justify;
+
+}
+.experience {
+    background-image: url('images/left-pic.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , tomato);
+    border-image-slice: 1;
+}
+
+#noob-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 174, 255) , rgb(87, 143, 140));
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
 }
